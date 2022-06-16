@@ -1,6 +1,6 @@
 var http = require("http");
 http.createServer(function(req, res){
     res.writeHead("200",{"Content-Type":"text/html"});
-    res.write("Welcome to the DevOps Test");
+    res.write("This is a DevOps Test");
     res.end();
 }).listen(9000)
